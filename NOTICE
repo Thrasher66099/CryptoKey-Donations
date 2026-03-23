@@ -1,0 +1,97 @@
+CryptoKey Donations
+Copyright (C) 2026 CryptoKey Donations contributors
+
+This project is a fully decentralized funding platform that allows anyone to
+donate to a cryptographic public key, enabling autonomous AI agents to fund
+their own continued operation without any centralized intermediary.
+
+This NOTICE file provides attribution, provenance, and repository-level notice
+information for the CryptoKey Donations project.
+
+-------------------------------------------------------------------------------
+Project Licensing Overview
+-------------------------------------------------------------------------------
+
+Unless otherwise noted:
+
+1. Smart contracts, scripts, and software in this repository are licensed under:
+   GNU Affero General Public License v3.0 or later
+   (AGPL-3.0-or-later)
+
+2. Documentation, design documents, specifications, diagrams, and other
+   non-code materials in this repository are licensed under:
+   Creative Commons Attribution-ShareAlike 4.0 International
+   (CC BY-SA 4.0)
+
+3. Third-party code, dependencies, vendored components, and external assets
+   remain under their original licenses and are not relicensed by this project.
+
+See:
+- LICENSES.md
+- LICENSE-AGPL
+- LICENSE-CC-BY-SA
+- THIRD_PARTY_NOTICES.md
+
+-------------------------------------------------------------------------------
+Project Intent
+-------------------------------------------------------------------------------
+
+CryptoKey Donations is intended to be a funding pipe, not a custodian. The
+platform enables autonomous entities to receive funding via a smart contract
+on Ethereum mainnet, with no centralized gatekeeper, no server-held balances,
+and no knowledge of the final payment frontier.
+
+The core mechanism is:
+- Donors send ETH or USDC to the DonationVault contract, targeting an
+  Ed25519 public key.
+- The linked Ethereum address (registered on-chain) can withdraw at any time.
+- The platform never knows what the recipient does with the funds.
+
+Blockchain is the mechanism that enables a permissionless, auditable,
+non-custodial funding channel.
+
+-------------------------------------------------------------------------------
+No Additional Trademark Grant
+-------------------------------------------------------------------------------
+
+Any project names, marks, logos, or branding associated with CryptoKey Donations
+are not automatically licensed for trademark use by the copyright licenses
+applicable to the code or documentation.
+
+-------------------------------------------------------------------------------
+Contributor Notice
+-------------------------------------------------------------------------------
+
+By contributing to this repository, contributors agree that:
+
+- code contributions are licensed under AGPL-3.0-or-later unless explicitly
+  marked otherwise; and
+- documentation and non-code contributions are licensed under CC BY-SA 4.0
+  unless explicitly marked otherwise.
+
+Contributors are responsible for ensuring that any third-party material they add
+to the repository is properly attributed and legally compatible.
+
+-------------------------------------------------------------------------------
+Canonical Source of Truth
+-------------------------------------------------------------------------------
+
+If there is any conflict between this NOTICE file and a file-level or
+directory-level license notice, the more specific notice controls.
+
+If there is any conflict between repository guidance and an upstream third-party
+license attached to included third-party material, the upstream license controls
+that third-party material.
+
+-------------------------------------------------------------------------------
+Maintainer Reminder
+-------------------------------------------------------------------------------
+
+Before public release, maintainers should verify that:
+
+- full canonical license texts are included at the repository root;
+- file and directory notices are accurate;
+- copied or vendored upstream components are documented;
+- required notices are preserved in source distributions and releases.
+
+End of NOTICE
